@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--Esto es para hacer compatible la pagina web con explorer edge-->
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!--Esto es para hacer compatible la pagina web con explorer 8,9-->
+    <meta content="IE=8; IE=9" http-equiv="X-UA-Compatible" />
+    <!--Esto es para el logo en la pestaña  del navegador-->
+    <link href="imagenes/logo_empresa_icon.png" rel="shortcut icon" type="image/*x-icon" />
+    <!--Texto que se mostrara en la pestaña del navegador-->
+    <title>
+        www.mipagina.com- Login
+    </title>
+    <!--Desde aqui inician los enlaces para hojas de estilos-->
+    <link href="css/estilos_login.css" rel="stylesheet">
+    <!--Hasta aqui finalizan los enlaces para hojas de estilos-->
+    </link>
+    </meta>
+    </meta>
+    </meta>
+</head>
+
+<body>
+    <!--Inicio de background body-->
+    <div class="background-body">
+    </div>
+    <!--Fin de background body-->
+    <!--Inicio del formulario del login-->
+    <div class="contenedor_form">
+        <form action="index.html" method="post">
+            <img id="imagen_logo_login" src="imagenes/logo_empresa_icon.png" />
+            <h1>
+                Usuario
+            </h1>
+            <input class="input_login" id="input_user" name="user_name" placeholder="Ingrese Usuario" required type="text" />
+            <h1>
+                Contraseña
+            </h1>
+            <input class="input_login" name="pass" placeholder="Ingrese Contraseña" required type="text">
+            </input>
+            <br>
+            <input class="botones_login" placeholder="Enviar" type="submit" />
+            <br>
+            <a href="http://www.mipagina.com/">
+                <input class="botones_login" type="button" value="Cancelar">
+                </input>
+            </a>
+            </br>
+            </br>
+        </form>
+    </div>
+    <!--Desde aqui inician el enlace con codigo js-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script src="js/scripts_login.js">
+    </script>
+    <!--Hasta aqui llega el enlace con codigo js-->
+</body>
+
+</html>
+<!--Fin del formulario del login-->
